@@ -26,7 +26,7 @@ def existing(topdir):
     return paired_list
 
 
-def unzipper(topdir, children=False, overwrite=False):
+def unzipper(topdir, children=False, overwrite=False, flatten=False):
     # Get list of zip files and subdirectories of topdir:
     zip_list = existing(topdir=topdir)
 
@@ -40,28 +40,35 @@ def unzipper(topdir, children=False, overwrite=False):
         # Loop over zip files and extract:
         for zd in to_unzip_list:
             zf = zd['Filename']
-            print(zf)
             z = zipfile.ZipFile(zf)
             z_filenames = [n.split('.')[0].upper() for n in z.namelist() if not n.endswith('/')]
             z_subdirnms = [n.split('/')[0] for n in z.namelist() if n.endswith('/')]
 
-            if os.path.basename(zf).split(".")[0] in z_subdirnms and len(z_subdirnms) > 0:
+            if os.path.basename(zf).split(".")[0] in z_subdirnms and len(z_subdirnms) == 1:
                 extract_path = os.path.dirname(zf)
                 print("Unzipped", os.path.basename(zf), "to", extract_path, ": case 1")
+                case = 1
             elif os.path.basename(zf).split(".")[0] not in z_subdirnms \
                     and os.path.basename(zf).split(".")[0] in z_filenames:
                 extract_path = os.path.dirname(zf)
                 print("Unzipped", os.path.basename(zf), "to", extract_path, ": case 2")
+                case = 2
             else:
                 extract_path = os.path.join(zf.split(".zip")[0])
                 if not os.path.exists(extract_path):
                     os.mkdir(extract_path)
                 print("Unzipped", os.path.basename(zf), "to created dir", extract_path, ": case 3")
+                case = 3
 
-            z.extractall(path=extract_path)
+            if not flatten or case == 3:
+                z.extractall(path=extract_path)
+            else:
+                for sub_zf in [n for n in z.namelist() if not n.endswith('/')]:
+                    with open(os.path.join(extract_path, sub_zf.split('/')[-1]), 'wb') as f:
+                        f.write(z.read(sub_zf))
 
         if children:
-            print("Looking for children zip files to unzip...")
+            print("Looking for children zip files to unzip...", end="")
             # Get list of zip files and subdirectories of topdir:
             all_zip_list = existing(topdir=topdir)
             old_zip_list = zip_list.copy()
@@ -73,7 +80,8 @@ def unzipper(topdir, children=False, overwrite=False):
                 to_unzip_list = [zd for zd in new_zip_list]
             else:
                 to_unzip_list = [zd for zd in new_zip_list if not zd['Unzipped']]
-
+            if len(to_unzip_list) == 0:
+                print("None left.")
         else:
             to_unzip_list = []
 
@@ -92,4 +100,4 @@ raw_data_dir = os.path.join(dir_dict['raw_data']['path'], 'IBGE')
 if not os.path.exists(raw_data_dir):
     os.mkdir(raw_data_dir)
 
-parent_dir = os.path.join(raw_data_dir, "malhas_municipais")
+parent_dir = os.path.join(raw_data_dir, "Censo_2010")
