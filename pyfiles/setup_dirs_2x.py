@@ -3,13 +3,13 @@ import os
 
 # function to check whether directories exist:
 def check_dirs(directory_dict):
-    print('Checking directories...', end=" ")
+    print 'Checking directories...',
     checked_dict = directory_dict
     for key in directory_dict.keys():
         dirpath = directory_dict[key]['path']
         status = os.path.exists(dirpath)
         checked_dict[key]['status'] = status
-    print("Done.")
+    print 'Done.'
     return checked_dict
 
 
@@ -27,13 +27,13 @@ def create_dirs(directory_dict, report=False):
             if not status and os.path.exists(os.path.dirname(dirpath)):
                 os.mkdir(dirpath)
                 if report:
-                    print('Created', dirpath)
+                    print 'Created {0}'.format(dirpath)
             elif status and os.path.exists(os.path.dirname(dirpath)):
                 if report:
-                    print(dirpath, 'already exists.')
+                    print '{0} already exists.'.format(dirpath)
             elif not status and not os.path.exists(os.path.dirname(dirpath)):
                 if report:
-                    print("{0}'s".format(dirpath), "base directory does not exist. No new directory created.")
+                    print "{0}'s base directory does not exist. No new directory created.".format(dirpath)
 
         # update status list:
         checked_dict = check_dirs(directory_dict)
