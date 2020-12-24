@@ -1,0 +1,111 @@
+\documentclass[11pt,a4paper]{article}
+
+% Bibliography package
+\usepackage[backend=biber,
+style=authoryear,
+date=year,
+block=space,
+maxbibnames=10,
+doi=false,isbn=false,url=true,eprint=false]
+{biblatex}
+
+\AtEveryBibitem{%
+	\ifentrytype{article}{%
+		\clearfield{url}%
+		\clearfield{urldate}%
+		\clearfield{archivePrefix}%
+		\clearfield{arxivId}%
+	}{%
+		\ifentrytype{misc}{%
+			\clearfield{url}%
+			\clearfield{urldate}%
+			\clearfield{archivePrefix}%
+			\clearfield{arxivId}%
+		}{%
+			\ifentrytype{incollection}{%
+				\clearfield{url}%
+				\clearfield{urldate}%
+				\clearfield{archivePrefix}%
+				\clearfield{arxivId}%
+			}{%
+			}%
+		}%
+	}%
+}%
+
+\addbibresource{../Bibliographies/202012.bib}
+
+
+% Set languange:
+\usepackage[utf8]{inputenc}
+\usepackage[UKenglish]{babel}
+\usepackage{csquotes}
+
+% Math Packages
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+% Page layout packages
+\usepackage[margin=0.8in, top=0.5in]{geometry}
+\usepackage[onehalfspacing]{setspace}
+%\usepackage{fancyhdr}
+%\setlength{\headheight}{14pt}
+
+% Figure packages
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xcolor}
+
+% Table packages
+\usepackage[justification=centering]{caption}
+\usepackage{subcaption}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{booktabs} % For Stata Tables
+%\usepackage{dcolumn} % to align decimals in tables
+\usepackage{siunitx} % to align decimals in tables
+\usepackage{rotating}
+\usepackage{bigstrut}
+\usepackage{multirow}
+\usepackage{wrapfig}
+
+% Other packages
+\usepackage[pdftex,colorlinks=true]{hyperref}
+\hypersetup{pdfauthor={Nicol\'as A. Lillo B. and Felipe Valencia C.},%
+	pdftitle={Research Idea - Capitanias},%
+	citecolor=blue,%
+	urlcolor=purple,%
+	filecolor=cyan}
+%\usepackage[raggedright]{titlesec} % Avoid hyphenation in section titles
+
+\renewcommand{\and}{ \& }
+
+% Declare title info:
+\title{Colonial Autonomy and State-Capacity: Evidence from Brazilian Capitan\'ias}
+\date{December 2020}
+\author{Nicol\'as A. Lillo B.\thanks{Department of Economics, Pontificia Universidad Javeriana, \emph{Corresponding Author: \href{mailto:nicolas_lillob@javeriana.edu.co}{nicolas\_lillob@javeriana.edu.co}}} \and Felipe Valencia C.\thanks{Vancouver School of Economics, University of British Columbia and IZA}}
+
+\begin{document}
+	\maketitle
+	
+	\begin{itemize}
+		\item We plan to answer the question in \textcite{Iyer2010}: what had better (less worse) consequences, direct or indirect rule by a colonizing power.
+		\item We will exploit quasi-random variation stemming from the way that Brazil was colonized. When Brazil was subdivided in \emph{capitan\'ias}, the borders between subdivisions were drawn as straight parallel lines. For this we rely on \textcite{Cintra2013}.
+		\item Identification comes from a fuzzy-RDD \parencite{Cattaneo2019,Cattaneo2019a}: the lines drawn in the 1530s subdivide the land into capitan\'ias, some of which return to direct-rule by the Portuguese Crown, while others remain semi-autonomous until the late 18\textsuperscript{th} century. This identification strategy is similar to \textcite{Michalopoulos2014}.
+		\item We hypothesise that colonial autonomy had a positive effect on long-run economic development through higher state capacity \parencite{Besley2009}, because capit\~aes had to distribute land more equally (to white settlers) and raise taxes, while the Crown could rely on its coffers to provide public goods. 
+		\begin{itemize}
+			\item I.e. capit\~aes behaved like \emph{stationary bandits} \`{a} la \textcite{Olson1993}.
+			\item This raises the question: are there records of the Crown's investments in Brazil? Or some kind of ``balance of payments'' we could tease out capital flows during the colonial era.
+		\end{itemize}
+		\item Historical data sources:
+		\begin{itemize}
+			\item \textcite{Naritomi2007,Naritomi2012}
+			\item \textcite{Fujiwara2017}
+		\end{itemize}
+	\end{itemize}
+
+	\clearpage
+	\printbibliography
+	
+\end{document}

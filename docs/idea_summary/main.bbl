@@ -1,0 +1,507 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Besley2009}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=57c77888db637677332c102812686993}{%
+           family={Besley},
+           familyi={B\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1fa15cf0ff6f6015cc43a7429eab414}{%
+           family={Persson},
+           familyi={P\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{694cc4f94f43f89a4109d00bacb38383}
+      \strng{fullhash}{694cc4f94f43f89a4109d00bacb38383}
+      \strng{bibnamehash}{694cc4f94f43f89a4109d00bacb38383}
+      \strng{authorbibnamehash}{694cc4f94f43f89a4109d00bacb38383}
+      \strng{authornamehash}{694cc4f94f43f89a4109d00bacb38383}
+      \strng{authorfullhash}{694cc4f94f43f89a4109d00bacb38383}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Economists generally assume that the state has sufficient institutional capacity to support markets and levy taxes. This paper develops a framework where "policy choices" in market regulation and taxation are constrained by past investments in legal and fiscal capacity. It studies the economic and political determinants of such investments, demonstrating that legal and fiscal capacity are typically complements. The results show that, among other things, common interest public goods, such as fighting external wars, as well as political stability and inclusive political institutions, are conducive to building state capacity. Some correlations in cross-country data are consistent with the theory. (JEL D72, E62, H11, H20, P14).}
+      \field{issn}{0002-8282}
+      \field{journaltitle}{American Economic Review}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{{The Origins of State Capacity: Property Rights, Taxation, and Politics}}
+      \field{volume}{99}
+      \field{year}{2009}
+      \field{pages}{1218\bibrangedash 1244}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1257/aer.99.4.1218
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Besley and Persson (2009, AER) The Origins of State Capacity - Property Rights, Taxation, and Politics.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://pubs.aeaweb.org/doi/10.1257/aer.99.4.1218
+      \endverb
+      \verb{url}
+      \verb http://pubs.aeaweb.org/doi/10.1257/aer.99.4.1218
+      \endverb
+    \endentry
+    \entry{Cattaneo2019}{incollection}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fe7c83baa6764134988a29cce14ed162}{%
+           family={Cattaneo},
+           familyi={C\bibinitperiod},
+           given={Matias\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8ecd43256565c8f4e269d6ca1b194c9}{%
+           family={Idrobo},
+           familyi={I\bibinitperiod},
+           given={Nicolás},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc0af297b5b48d1f0d658f185dfc9954}{%
+           family={Titiunik},
+           familyi={T\bibinitperiod},
+           given={Rocío},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{1101a44430260ee226c69f1b421e5660}
+      \strng{fullhash}{1101a44430260ee226c69f1b421e5660}
+      \strng{bibnamehash}{1101a44430260ee226c69f1b421e5660}
+      \strng{authorbibnamehash}{1101a44430260ee226c69f1b421e5660}
+      \strng{authornamehash}{1101a44430260ee226c69f1b421e5660}
+      \strng{authorfullhash}{1101a44430260ee226c69f1b421e5660}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this Element and its accompanying Element, Matias D. Cattaneo, Nicolas Idrobo, and Rocio Titiunik provide an accessible and practical guide for the analysis and interpretation of Regression Discontinuity (RD) designs that encourages the use of a common set of practices and facilitates the accumulation of RD-based empirical evidence. In this Element, the authors discuss the foundations of the canonical Sharp RD design, which has the following features: (i) the score is continuously distributed and has only one dimension, (ii) there is only one cutoff, and (iii) compliance with the treatment assignment is perfect. In the accompanying Element, the authors discuss practical and conceptual extensions to the basic RD setup.}
+      \field{booktitle}{Cambridge Elements: Quantitative and Computational Methods for Social Science}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{9781108684606}
+      \field{title}{{A Practical Introduction to Regression Discontinuity Designs: Volume I}}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1017/9781108684606
+      \endverb
+      \verb{eprint}
+      \verb 1911.09511
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Cattaneo-Idrobo-Titiunik{\_}2018{\_}CUP-Vol1.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/9781108684606/type/element
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/9781108684606/type/element
+      \endverb
+    \endentry
+    \entry{Cattaneo2019a}{incollection}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fe7c83baa6764134988a29cce14ed162}{%
+           family={Cattaneo},
+           familyi={C\bibinitperiod},
+           given={Matias\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8ecd43256565c8f4e269d6ca1b194c9}{%
+           family={Idrobo},
+           familyi={I\bibinitperiod},
+           given={Nicolás},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc0af297b5b48d1f0d658f185dfc9954}{%
+           family={Titiunik},
+           familyi={T\bibinitperiod},
+           given={Rocío},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{1101a44430260ee226c69f1b421e5660}
+      \strng{fullhash}{1101a44430260ee226c69f1b421e5660}
+      \strng{bibnamehash}{1101a44430260ee226c69f1b421e5660}
+      \strng{authorbibnamehash}{1101a44430260ee226c69f1b421e5660}
+      \strng{authornamehash}{1101a44430260ee226c69f1b421e5660}
+      \strng{authorfullhash}{1101a44430260ee226c69f1b421e5660}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this Element and its accompanying Element, Matias D. Cattaneo, Nicolas Idrobo, and Rocio Titiunik provide an accessible and practical guide for the analysis and interpretation of Regression Discontinuity (RD) designs that encourages the use of a common set of practices and facilitates the accumulation of RD-based empirical evidence. In this Element, the authors discuss the foundations of the canonical Sharp RD design, which has the following features: (i) the score is continuously distributed and has only one dimension, (ii) there is only one cutoff, and (iii) compliance with the treatment assignment is perfect. In the accompanying Element, the authors discuss practical and conceptual extensions to the basic RD setup.}
+      \field{booktitle}{Cambridge Elements: Quantitative and Computational Methods for Social Science}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{9781108684606}
+      \field{title}{{A Practical Introduction to Regression Discontinuity Designs: Volume II}}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1017/9781108684606
+      \endverb
+      \verb{eprint}
+      \verb 1911.09511
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Cattaneo-Idrobo-Titiunik{\_}2018{\_}CUP-Vol2.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/9781108684606/type/element
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/9781108684606/type/element
+      \endverb
+    \endentry
+    \entry{Cintra2013}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da88279565db82064779ec5fffb0b2bd}{%
+           family={Cintra},
+           familyi={C\bibinitperiod},
+           given={Jorge\bibnamedelima Pimentel},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da88279565db82064779ec5fffb0b2bd}
+      \strng{fullhash}{da88279565db82064779ec5fffb0b2bd}
+      \strng{bibnamehash}{da88279565db82064779ec5fffb0b2bd}
+      \strng{authorbibnamehash}{da88279565db82064779ec5fffb0b2bd}
+      \strng{authornamehash}{da88279565db82064779ec5fffb0b2bd}
+      \strng{authorfullhash}{da88279565db82064779ec5fffb0b2bd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Neste artigo, analisa-se o mapa clássico das capitanias hereditárias da América Portuguesa quando foram criadas na primeira metade do século XVI, apontando-se alguns problemas de representação e propondo um novo desenho a partir de fontes primárias como as cartas de doação e forais e a cartografia da época, em particular o mapa de Bartolomeu Velho. As principais alterações propostas referem-se às linhas de divisa nas capitanias do norte, que devem correr segundo meridianos e não segundo paralelos; à particular configuração das capitanias do sul, com linhas dirigindo-se a noroeste; à divisão em quinhões das capitanias de Aires da Cunha e de João de Barros e à existência de terras não distribuídas.}
+      \field{issn}{0101-4714}
+      \field{journaltitle}{Anais do Museu Paulista: História e Cultura Material}
+      \field{month}{12}
+      \field{number}{2}
+      \field{title}{{Reconstruindo o mapa das capitanias hereditárias}}
+      \field{volume}{21}
+      \field{year}{2013}
+      \field{pages}{11\bibrangedash 45}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1590/S0101-47142013000200002
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Cintra (2013, AMP) Reconstruindo o Mapa das Capitanias Hereditarias.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.scielo.br/scielo.php?script=sci{\_}arttext{\&}pid=S0101-47142013000200002{\&}lng=pt{\&}tlng=pt
+      \endverb
+      \verb{url}
+      \verb http://www.scielo.br/scielo.php?script=sci%7B%5C_%7Darttext%7B%5C&%7Dpid=S0101-47142013000200002%7B%5C&%7Dlng=pt%7B%5C&%7Dtlng=pt
+      \endverb
+      \keyw{1,brazil,docente da escola,hereditary captaincies,historic cartography,map of hereditary captaincies,politécnica da universidade,portuguese america}
+    \endentry
+    \entry{Fujiwara2017}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=18af260d364ee7ae40ddbc2ddf912254}{%
+           family={Fujiwara},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc40e09e42fc26210abcee874e06f9a6}{%
+           family={Laudares},
+           familyi={L\bibinitperiod},
+           given={Humberto},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0429d2ead9e2d592635ebbce59fabb7d}{%
+           family={{Valencia Caicedo}},
+           familyi={V\bibinitperiod},
+           given={Felipe},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3dddc7e0857fc24fb7274c407f62487b}
+      \strng{fullhash}{3dddc7e0857fc24fb7274c407f62487b}
+      \strng{bibnamehash}{3dddc7e0857fc24fb7274c407f62487b}
+      \strng{authorbibnamehash}{3dddc7e0857fc24fb7274c407f62487b}
+      \strng{authornamehash}{3dddc7e0857fc24fb7274c407f62487b}
+      \strng{authorfullhash}{3dddc7e0857fc24fb7274c407f62487b}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although the negative impact of slavery has been documented for ex- porting African nations, less is known about the long-term impact of this institution in receiving nations. This article examines the long-term effects of slavery on the receiving end of the spectrum, by focusing on Brazil, one of the largest importers of slaves and the last country to abolish this insti- tution in the Western Hemisphere. To deal with the endogeneity of slavery placing, we use a spatial Regression Discontinuity framework, exploiting the colonial boundaries between the Portuguese and Spanish empires in current day Brazil. We find that the number of slaves in 1872 is discon- tinuously higher in the Portuguese side of the border, consistent with this power's comparative advantage in this trade. We then show how this dif- ferential slave rate has led to higher income inequality of 0.103 points (Gini coefficient), approximately 20{\%} of average income inequality in Brazil. To further investigate the role of slavery on economic development, we use the division of the Portuguese colony into Donatary Captancies. We find that a 1{\%} increase in slavery in 1872 leads to an increase in inequality of 0.112. Aside from the general effect on inequality, we find that more slave intensive areas have higher income and educational racial imbalances and worse public institutions today.}
+      \field{title}{{Tordesillas, Slavery and the Origins of Brazilian Inequality}}
+      \field{year}{2017}
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Fujiwara, Laudares, and Valencia (2017, WP) Tordesillas, Slavery and the Origins of Inequality.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Iyer2010}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0d323edec08b9cdfccb11d18daa72806}{%
+           family={Iyer},
+           familyi={I\bibinitperiod},
+           given={Lakshmi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0d323edec08b9cdfccb11d18daa72806}
+      \strng{fullhash}{0d323edec08b9cdfccb11d18daa72806}
+      \strng{bibnamehash}{0d323edec08b9cdfccb11d18daa72806}
+      \strng{authorbibnamehash}{0d323edec08b9cdfccb11d18daa72806}
+      \strng{authornamehash}{0d323edec08b9cdfccb11d18daa72806}
+      \strng{authorfullhash}{0d323edec08b9cdfccb11d18daa72806}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper compares economic outcomes across areas in India that were under direct British colonial rule with areas that were under indirect colonial rule. Controlling for selective annexation using a specific policy rule, I find that areas that experienced direct rule have significantly lower levels of access to schools, health centers, and roads in the postcolonial period. I find evidence that the quality of governance in the colonial period has a significant and persistent effect on postcolonial outcomes. {©} 2010 by the President and Fellows of Harvard College and the Massachusetts Institute of Technology.}
+      \field{issn}{0034-6535}
+      \field{journaltitle}{Review of Economics and Statistics}
+      \field{month}{11}
+      \field{number}{4}
+      \field{title}{{Direct versus Indirect Colonial Rule in India: Long-Term Consequences}}
+      \field{volume}{92}
+      \field{year}{2010}
+      \field{pages}{693\bibrangedash 713}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1162/REST_a_00023
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Iyer (2010, RES) Direct versus Indirect Colonial Rule in India - Long-Term Consequences.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.mitpressjournals.org/doi/10.1162/REST{\_}a{\_}00023
+      \endverb
+      \verb{url}
+      \verb http://www.mitpressjournals.org/doi/10.1162/REST%7B%5C_%7Da%7B%5C_%7D00023
+      \endverb
+    \endentry
+    \entry{Michalopoulos2014}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=47868c27dab1bfb4ca9594dcde7a64b4}{%
+           family={Michalopoulos},
+           familyi={M\bibinitperiod},
+           given={Stelios},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ab76ca03f3d91f0157de10a34760ab0}{%
+           family={Papaioannou},
+           familyi={P\bibinitperiod},
+           given={Elias},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0fd27aaa2ba21c2b42e77f0e7a72d538}
+      \strng{fullhash}{0fd27aaa2ba21c2b42e77f0e7a72d538}
+      \strng{bibnamehash}{0fd27aaa2ba21c2b42e77f0e7a72d538}
+      \strng{authorbibnamehash}{0fd27aaa2ba21c2b42e77f0e7a72d538}
+      \strng{authornamehash}{0fd27aaa2ba21c2b42e77f0e7a72d538}
+      \strng{authorfullhash}{0fd27aaa2ba21c2b42e77f0e7a72d538}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We investigate the role of national institutions on subnational African development in a novel framework that accounts for both local geography and cultural-genetic traits. We exploit the fact that the political boundaries on the eve of African independence partitioned more than 200 ethnic groups across adjacent countries subjecting similar cultures, residing in homogeneous geographic areas, to different formal institutions. Using both a matching type and a spatial regression discontinuity approach we show that differences in countrywide institutional structures across the national border do not explain within-ethnicity differences in economic performance, as captured by satellite images of light density. The average noneffect of national institutions on ethnic development masks considerable heterogeneity partially driven by the diminishing role of national institutions in areas further from the capital cities.}
+      \field{issn}{0033-5533}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{{National Institutions and Subnational Development in Africa}}
+      \field{volume}{129}
+      \field{year}{2014}
+      \field{pages}{151\bibrangedash 213}
+      \range{pages}{63}
+      \verb{doi}
+      \verb 10.1093/qje/qjt029
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Michalopoulos and Papaionnou (2013, QJE) National Institutions and Subnational Development in Africa.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/qje/article/129/1/151/1897929
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/qje/article/129/1/151/1897929
+      \endverb
+    \endentry
+    \entry{Naritomi2007}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=898300b70ca47365c98d4a5214feac73}{%
+           family={Naritomi},
+           familyi={N\bibinitperiod},
+           given={Joana},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \strng{namehash}{898300b70ca47365c98d4a5214feac73}
+      \strng{fullhash}{898300b70ca47365c98d4a5214feac73}
+      \strng{bibnamehash}{898300b70ca47365c98d4a5214feac73}
+      \strng{authorbibnamehash}{898300b70ca47365c98d4a5214feac73}
+      \strng{authornamehash}{898300b70ca47365c98d4a5214feac73}
+      \strng{authorfullhash}{898300b70ca47365c98d4a5214feac73}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Herança Colonial, Instituções {\&} Desenvolvimento: Um estudo sobre a desigualdade entre os municípios Brasileiros}}
+      \field{type}{Dissertação (Mestrado em Economia)-Pontifícia Universidade Católica do Rio de Janeiro}
+      \field{year}{2007}
+      \field{pages}{100}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Naritomi (2007, Thesis) Heranca Colonial, Institucoes e Desenvolvimento.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Naritomi2012}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=898300b70ca47365c98d4a5214feac73}{%
+           family={Naritomi},
+           familyi={N\bibinitperiod},
+           given={Joana},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=445f41b20b023950e8f1c63ae6762fa6}{%
+           family={Soares},
+           familyi={S\bibinitperiod},
+           given={Rodrigo\bibnamedelima R.},
+           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2539abf6d9800b20c91a5b376ff2f773}{%
+           family={Assunção},
+           familyi={A\bibinitperiod},
+           given={Juliano\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e833784bf4dbac8c793b0acc9826ac40}
+      \strng{fullhash}{e833784bf4dbac8c793b0acc9826ac40}
+      \strng{bibnamehash}{e833784bf4dbac8c793b0acc9826ac40}
+      \strng{authorbibnamehash}{e833784bf4dbac8c793b0acc9826ac40}
+      \strng{authornamehash}{e833784bf4dbac8c793b0acc9826ac40}
+      \strng{authorfullhash}{e833784bf4dbac8c793b0acc9826ac40}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article analyzes the determinants of local institutions in Brazil. We show that institutional quality and distribution of land are partly inherited from the colonial histories experienced by different areas of the country. The sugar cane boom—characterized by an oligarchic society—is associated with more land inequality. The gold boom—characterized by a heavily inefficient presence of the Portuguese state—is associated with worse governance and access to justice. We do not find similar effects for a postcolonial boom (coffee). We also find that the colonial episodes are correlated with lower provision of public goods.}
+      \field{issn}{0022-0507}
+      \field{journaltitle}{The Journal of Economic History}
+      \field{month}{5}
+      \field{number}{2}
+      \field{title}{{Institutional Development and Colonial Heritage within Brazil}}
+      \field{volume}{72}
+      \field{year}{2012}
+      \field{pages}{393\bibrangedash 422}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1017/S0022050712000071
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Naritomi, Soares, and Assuncao (2012, JEH) Institutional Development and Colonial Heritage within Brazil.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0022050712000071/type/journal{\_}article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0022050712000071/type/journal%7B%5C_%7Darticle
+      \endverb
+    \endentry
+    \entry{Olson1993}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=df106a52ba6207f8c20a6138f9025954}{%
+           family={Olson},
+           familyi={O\bibinitperiod},
+           given={Mancur},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{df106a52ba6207f8c20a6138f9025954}
+      \strng{fullhash}{df106a52ba6207f8c20a6138f9025954}
+      \strng{bibnamehash}{df106a52ba6207f8c20a6138f9025954}
+      \strng{authorbibnamehash}{df106a52ba6207f8c20a6138f9025954}
+      \strng{authornamehash}{df106a52ba6207f8c20a6138f9025954}
+      \strng{authorfullhash}{df106a52ba6207f8c20a6138f9025954}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Under anarchy, uncoordinated competitive theft by “roving bandits” destroys the incentive to invest and produce, leaving little for either the population or the bandits. Both can be better off if a bandit sets himself up as a dictator—a “stationary bandit” who monopolizes and rationalizes theft in the form of taxes. A secure autocrat has an encompassing interest in his domain that leads him to provide a peaceful order and other public goods that increase productivity. Whenever an autocrat expects a brief tenure, it pays him to confiscate those assets whose tax yield over his tenure is less than their total value. This incentive plus the inherent uncertainty of succession in dictatorships imply that autocracies will rarely have good economic performance for more than a generation. The conditions necessary for a lasting democracy are the same necessary for the security of property and contract rights that generates economic growth.}
+      \field{issn}{0003-0554}
+      \field{journaltitle}{American Political Science Review}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{{Dictatorship, Democracy, and Development}}
+      \field{volume}{87}
+      \field{year}{1993}
+      \field{pages}{567\bibrangedash 576}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.2307/2938736
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Olson (1993, APSR) Dictatorship, Democracy, and Development.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0003055400100838/type/journal{\_}article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0003055400100838/type/journal%7B%5C_%7Darticle
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
