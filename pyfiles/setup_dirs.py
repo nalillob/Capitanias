@@ -3,12 +3,13 @@ import os
 
 # function to check whether directories exist:
 def check_dirs(directory_dict):
-    print('Checking directories...')
+    print('Checking directories...', end=" ")
     checked_dict = directory_dict
     for key in directory_dict.keys():
         dirpath = directory_dict[key]['path']
         status = os.path.exists(dirpath)
         checked_dict[key]['status'] = status
+    print("Done.")
     return checked_dict
 
 
@@ -46,12 +47,16 @@ def def_dirs():
     dir_main = os.path.split(dir_py)[0]
     dir_data = os.path.join(dir_main, 'data')
     dir_rawdata = os.path.join(dir_data, 'raw')
+    dir_dtadata = os.path.join(dir_data, 'dta')
+    dir_gisdata = os.path.join(dir_data, 'gis')
     dir_results = os.path.join(dir_main, 'results')
     dir_docs = os.path.join(dir_main, 'docs')
     dir_dict = {'main': {'path': dir_main},
                 'data': {'path': dir_data},
                 'pyfiles': {'path': dir_py},
                 'raw_data': {'path': dir_rawdata},
+                'dta_data': {'path': dir_dtadata},
+                'gis_data': {'path': dir_gisdata},
                 'docs': {'path': dir_docs},
                 'results': {'path': dir_results}}
     return dir_dict
