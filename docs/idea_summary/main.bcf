@@ -2361,10 +2361,18 @@
     <bcf:citekey order="7">Naritomi2007</bcf:citekey>
     <bcf:citekey order="7">Naritomi2012</bcf:citekey>
     <bcf:citekey order="8">Fujiwara2017</bcf:citekey>
-    <bcf:citekey order="9">Michalopoulos2020</bcf:citekey>
+    <bcf:citekey order="9">Lange2009</bcf:citekey>
     <bcf:citekey order="10">Michalopoulos2020</bcf:citekey>
-    <bcf:citekey order="11">Michalopoulos2020</bcf:citekey>
-    <bcf:citekey order="12">Michalopoulos2020</bcf:citekey>
+    <bcf:citekey order="11">Gerring2011</bcf:citekey>
+    <bcf:citekey order="12">DeJuan2017</bcf:citekey>
+    <bcf:citekey order="13">Lange2009</bcf:citekey>
+    <bcf:citekey order="14">Ali2019</bcf:citekey>
+    <bcf:citekey order="15">Michalopoulos2020</bcf:citekey>
+    <bcf:citekey order="16">Lechler2018</bcf:citekey>
+    <bcf:citekey order="17">Lechler2018</bcf:citekey>
+    <bcf:citekey order="18">Michalopoulos2020</bcf:citekey>
+    <bcf:citekey order="19">Lowes2020</bcf:citekey>
+    <bcf:citekey order="20">Michalopoulos2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

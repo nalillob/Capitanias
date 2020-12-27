@@ -19,6 +19,68 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Ali2019}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e7473f57b13960a82033614c43e4cf3d}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Merima},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec7c50a97250dc27ab2ee16a4dd59e9c}{%
+           family={Fjeldstad},
+           familyi={F\bibinitperiod},
+           given={Odd-Helge},
+           giveni={O\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d33f71183ccea9e04599baf76a0a7724}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Boqian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db9a57a218aa38bb48c0c6041a8d8de7}{%
+           family={Shifa},
+           familyi={S\bibinitperiod},
+           given={Abdulaziz\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ecfdb730c843e056670cba2e31377cee}
+      \strng{fullhash}{527e7ac5b4c231bd7a1c965784832476}
+      \strng{bibnamehash}{527e7ac5b4c231bd7a1c965784832476}
+      \strng{authorbibnamehash}{527e7ac5b4c231bd7a1c965784832476}
+      \strng{authornamehash}{ecfdb730c843e056670cba2e31377cee}
+      \strng{authorfullhash}{527e7ac5b4c231bd7a1c965784832476}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{African colonial history suggests that British colonial rule may have undermined state centralisation due to legacies of ethnic segregation and stronger executive constraints. Using micro-data from anglophone and francophone countries in sub-Saharan Africa, we find that anglophone citizens are less likely to identify themselves in national terms (relative to ethnic terms). To address endo-geneity concerns, we utilise regression discontinuity by focusing on observations near anglophone– francophone borders, both across countries and within Cameroon. Evidence on taxation, security and the power of chiefs also suggests weaker state capacity in anglophone countries. These results highlight the legacy of colonial rule on state-building.}
+      \field{issn}{0013-0133}
+      \field{journaltitle}{The Economic Journal}
+      \field{month}{4}
+      \field{number}{619}
+      \field{title}{{Colonial Legacy, State-building and the Salience of Ethnicity in Sub-Saharan Africa}}
+      \field{volume}{129}
+      \field{year}{2019}
+      \field{pages}{1048\bibrangedash 1081}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1111/ecoj.12595
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Ali, Fjeldstad, Jiang, and Shifa (2019, EJ) Colonial Legacy, State-building and the Salience of Ethnicity in Sub-Saharan Africa.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/ej/article/129/619/1048/5355648
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/ej/article/129/619/1048/5355648
+      \endverb
+    \endentry
     \entry{Besley2009}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=57c77888db637677332c102812686993}{%
@@ -234,6 +296,51 @@
       \endverb
       \keyw{1,brazil,docente da escola,hereditary captaincies,historic cartography,map of hereditary captaincies,politécnica da universidade,portuguese america}
     \endentry
+    \entry{DeJuan2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=320b61d8e39257af3825c0a01fed9adc}{%
+           family={{De Juan}},
+           familyi={D\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{320b61d8e39257af3825c0a01fed9adc}
+      \strng{fullhash}{320b61d8e39257af3825c0a01fed9adc}
+      \strng{bibnamehash}{320b61d8e39257af3825c0a01fed9adc}
+      \strng{authorbibnamehash}{320b61d8e39257af3825c0a01fed9adc}
+      \strng{authornamehash}{320b61d8e39257af3825c0a01fed9adc}
+      \strng{authorfullhash}{320b61d8e39257af3825c0a01fed9adc}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Where and how have precolonial institutions of conflict resolution remained intact? Although it is often argued that “traditional” institutions can play a key role in managing communal conflicts, little is known about the conditions of their “survival.” This article argues that historical, political, and cultural topographies are essential to understanding patterns of the persistence and demise of precolonial institutions. Traditional modes of conflict resolution remain strong where they have been internalized over centuries: in the cultural and political centers of precolonial states. I use original geocoded survey data and historical spatial information on precolonial Burundi to analyze this hypothesis. The estimations yield robust correlations between the geographic patterns of the precolonial kingdom and current modes of resource-related conflict resolution.}
+      \field{issn}{0010-4140}
+      \field{journaltitle}{Comparative Political Studies}
+      \field{month}{11}
+      \field{number}{13}
+      \field{title}{{“Traditional” Resolution of Land Conflicts: The Survival of Precolonial Dispute Settlement in Burundi}}
+      \field{volume}{50}
+      \field{year}{2017}
+      \field{pages}{1835\bibrangedash 1868}
+      \range{pages}{34}
+      \verb{doi}
+      \verb 10.1177/0010414016688006
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/De Juan (2017, Comp Pol Studs) 'Traditional' Resolution of Land Conflicts - The Survival of Precolonial Dispute Settlement in Burundi.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1177/0010414016688006
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1177/0010414016688006
+      \endverb
+      \keyw{land conflicts,pre-colonial institutions,state building,subnational politics}
+    \endentry
     \entry{Fujiwara2017}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=18af260d364ee7ae40ddbc2ddf912254}{%
@@ -272,6 +379,68 @@
       \field{year}{2017}
       \verb{file}
       \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Fujiwara, Laudares, and Valencia (2017, WP) Tordesillas, Slavery and the Origins of Inequality.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Gerring2011}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a6a0cbfe9daf777684dbb8947a681e73}{%
+           family={Gerring},
+           familyi={G\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f34cc061d63e0ea040319db50fcd8312}{%
+           family={Ziblatt},
+           familyi={Z\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dbf9e3129f16ddd82518098f7a01157}{%
+           family={{Van Gorp}},
+           familyi={V\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3ba9a04343cc9b8326ddc26dc6c38742}{%
+           family={Arévalo},
+           familyi={A\bibinitperiod},
+           given={Julián},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{15a310f03479be93408f97580a9748e9}
+      \strng{fullhash}{268d1b56d91a39ecb8154833e7690190}
+      \strng{bibnamehash}{268d1b56d91a39ecb8154833e7690190}
+      \strng{authorbibnamehash}{268d1b56d91a39ecb8154833e7690190}
+      \strng{authornamehash}{15a310f03479be93408f97580a9748e9}
+      \strng{authorfullhash}{268d1b56d91a39ecb8154833e7690190}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Most governance arrangements involve spatial units with highly unequal powers, for example, a feudal monarchy and its principalities, an empire and its colonies, a formal empire and an informal empire (or sphere of influence), a national government and its subnational entities, or a regional government and its local entities. In this situation, the dominant unit ( A ) usually enjoys some discretion about how to institutionalize its authority over the subordinate unit ( B ). An important element of this decision concerns how much authority should be delegated to the weaker unit. The authors simplify this dimension of governance along a continuum of “direct” and “indirect” styles of rule. Why, in some cases, does one find a relatively direct (centralized) system of rule and in others a relatively indirect (decentralized) system of rule? While many factors impinge on this decision, the authors argue that an important and highly persistent factor is the prior level of centralization existing within the subordinate unit. Greater centralization in B is likely to lead to a more indirect form of rule between A and B , all other things being equal. The authors refer to this as an institutional theory of direct/indirect rule. Empirical analyses of this hypothesis are applied to patterns of direct and indirect rule (1) during the age of imperialism and (2) across contemporary nation-states. The article concludes by discussing applications of the theory in a variety of additional settings.}
+      \field{issn}{0043-8871}
+      \field{journaltitle}{World Politics}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{{An Institutional Theory of Direct and Indirect Rule}}
+      \field{volume}{63}
+      \field{year}{2011}
+      \field{pages}{377\bibrangedash 433}
+      \range{pages}{57}
+      \verb{doi}
+      \verb 10.1017/S0043887111000104
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Gerring, Ziblatt, Van Gorp, and Ar{\'{e}}valo (2011, WP) an-institutional-theory-of-direct-and-indirect-rule.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0043887111000104/type/journal{\_}article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0043887111000104/type/journal%7B%5C_%7Darticle
       \endverb
     \endentry
     \entry{Iyer2010}{article}{}
@@ -317,6 +486,123 @@
       \verb{url}
       \verb http://www.mitpressjournals.org/doi/10.1162/REST%7B%5C_%7Da%7B%5C_%7D00023
       \endverb
+    \endentry
+    \entry{Lange2009}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e6aa3a3511e956de9c5750976078c875}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{e6aa3a3511e956de9c5750976078c875}
+      \strng{fullhash}{e6aa3a3511e956de9c5750976078c875}
+      \strng{bibnamehash}{e6aa3a3511e956de9c5750976078c875}
+      \strng{authorbibnamehash}{e6aa3a3511e956de9c5750976078c875}
+      \strng{authornamehash}{e6aa3a3511e956de9c5750976078c875}
+      \strng{authorfullhash}{e6aa3a3511e956de9c5750976078c875}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Lineages of Despotism and Development: British Colonialism and State Power}}
+      \field{year}{2009}
+    \endentry
+    \entry{Lechler2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=78baa9e2b5345d106048acfce7854e44}{%
+           family={Lechler},
+           familyi={L\bibinitperiod},
+           given={Marie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da99673eed12006c57784d2179f2eed9}{%
+           family={McNamee},
+           familyi={M\bibinitperiod},
+           given={Lachlan},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{81e1c5c9aac244a900d2ec84345d97d9}
+      \strng{fullhash}{81e1c5c9aac244a900d2ec84345d97d9}
+      \strng{bibnamehash}{81e1c5c9aac244a900d2ec84345d97d9}
+      \strng{authorbibnamehash}{81e1c5c9aac244a900d2ec84345d97d9}
+      \strng{authornamehash}{81e1c5c9aac244a900d2ec84345d97d9}
+      \strng{authorfullhash}{81e1c5c9aac244a900d2ec84345d97d9}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article identifies indirect and direct colonial rule as causal factors in shaping support for democracy by exploiting a within-country natural experiment in Namibia. Throughout the colonial era, northern Namibia was indirectly ruled through a system of appointed indigenous traditional elites whereas colonial authorities directly ruled southern Namibia. This variation originally stems from where the progressive extension of direct German control was stopped after a rinderpest epidemic in the 1890s, and, thus, constitutes plausibly exogenous within-country variation in the form of colonial rule. Using this spatial discontinuity, we find that individuals in indirectly ruled areas are less likely to support democracy and turnout at elections. We explore potential mechanisms and find suggestive evidence that the greater influence of traditional leaders in indirectly ruled areas has socialized individuals to accept nonelectoral bases of political authority.}
+      \field{issn}{0010-4140}
+      \field{journaltitle}{Comparative Political Studies}
+      \field{month}{12}
+      \field{number}{14}
+      \field{title}{{Indirect Colonial Rule Undermines Support for Democracy: Evidence From a Natural Experiment in Namibia}}
+      \field{volume}{51}
+      \field{year}{2018}
+      \field{pages}{1858\bibrangedash 1898}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1177/0010414018758760
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Lechler and McNamee (2018, Comp Pol Studs) Indirect Colonial Rule Undermines Support for Democracy - Evidence from a Natural Experiment in Namibia.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://journals.sagepub.com/doi/10.1177/0010414018758760
+      \endverb
+      \verb{url}
+      \verb http://journals.sagepub.com/doi/10.1177/0010414018758760
+      \endverb
+      \keyw{Namibia,decentralized despotism,democratic consolidation,democratic institutions,indirect colonial rule,natural experiment,political attitudes,spatial RDD,sub-Saharan Africa}
+    \endentry
+    \entry{Lowes2020}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cc60d54c195d34926ef4540497702730}{%
+           family={Lowes},
+           familyi={L\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab68afcb08f6e14b62f0819fa75b929c}{%
+           family={Montero},
+           familyi={M\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a86718519fc8d4418a55d2dfd904006e}
+      \strng{fullhash}{a86718519fc8d4418a55d2dfd904006e}
+      \strng{bibnamehash}{a86718519fc8d4418a55d2dfd904006e}
+      \strng{authorbibnamehash}{a86718519fc8d4418a55d2dfd904006e}
+      \strng{authornamehash}{a86718519fc8d4418a55d2dfd904006e}
+      \strng{authorfullhash}{a86718519fc8d4418a55d2dfd904006e}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{All colonial powers granted concessions to private companies to extract natural resources during the colonial era. Within Africa, these concessions were characterized by indirect rule and violence. We use the arbitrarily defined borders of rubber concessions granted in the north of the Congo Free State to examine the causal effects of this form of economic orga- nization on development. We find that historical exposure to the concessions causes significantly worse education, wealth, and health outcomes. To examine mechanisms, we collect survey and experimental data from individuals near a former concession boundary. We find that village chiefs inside the former concessions provide fewer public goods, are less likely to be elected, and are more likely to be hereditary. However, individuals within the concessions are more trusting, more cohesive, and more supportive of sharing income. The results are relevant for the many places that were designated as concessions to private companies during the colonial era.}
+      \field{title}{{Concessions, Violence, and Indirect Rule: Evidence from the Congo Free State}}
+      \field{type}{Manuscript}
+      \field{year}{2020}
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Lowes and Montero (2020, Manuscript) Concessions, Violence, and Indirect Rule - Evidence from the Congo Free State.pdf:pdf
+      \endverb
+      \keyw{Africa,colonialism,concessions,indirect rule,violence}
     \endentry
     \entry{Michalopoulos2014}{article}{}
       \name{author}{2}{}{%

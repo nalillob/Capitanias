@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.28)  25 DEC 2020 13:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.28)  27 DEC 2020 10:56
 entering extended mode
 **./main.tex
 (main.tex
@@ -912,18 +912,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: E0822BFB9C36305CC8BFD75CF8C8632A;99.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19747 strings out of 479799
- 366960 string characters out of 2877122
- 1109871 words of memory out of 3000000
- 36421 multiletter control sequences out of 15000+200000
+ 19796 strings out of 479799
+ 368192 string characters out of 2877122
+ 1111210 words of memory out of 3000000
+ 36464 multiletter control sequences out of 15000+200000
  549577 words of font info for 84 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,11n,73p,1881b,2239s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 66i,11n,73p,1859b,2239s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\nicol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcrm0600.pk> <C:\Users\nicol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
 ec/dpi600\tcrm1095.pk> <C:\Users\nicol\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
@@ -937,9 +942,9 @@ ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files
 9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmti9.pfb>
-Output written on main.pdf (4 pages, 157375 bytes).
+Output written on main.pdf (4 pages, 161343 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  17 words of extra memory for PDF output out of 10000 (max. 10000000)
 
