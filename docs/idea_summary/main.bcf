@@ -2361,6 +2361,10 @@
     <bcf:citekey order="7">Naritomi2007</bcf:citekey>
     <bcf:citekey order="7">Naritomi2012</bcf:citekey>
     <bcf:citekey order="8">Fujiwara2017</bcf:citekey>
+    <bcf:citekey order="9">Michalopoulos2020</bcf:citekey>
+    <bcf:citekey order="10">Michalopoulos2020</bcf:citekey>
+    <bcf:citekey order="11">Michalopoulos2020</bcf:citekey>
+    <bcf:citekey order="12">Michalopoulos2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

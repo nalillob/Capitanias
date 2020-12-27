@@ -1,23 +1,23 @@
 [0] Config.pm:312> INFO - This is Biber 2.15 (beta)
 [0] Config.pm:315> INFO - Logfile is 'main.blg'
-[133] biber-MSWIN64:330> INFO - === 
-[170] Biber.pm:415> INFO - Reading 'main.bcf'
-[317] Biber.pm:952> INFO - Found 10 citekeys in bib section 0
-[341] Biber.pm:4334> INFO - Processing section 0
-[359] Biber.pm:4523> INFO - Looking for bibtex format file '../Bibliographies/202012.bib' for section 0
-[374] bibtex.pm:1682> INFO - LaTeX decoding ...
-[574] bibtex.pm:1494> INFO - Found BibTeX data source '../Bibliographies/202012.bib'
-[577] Utils.pm:395> WARN - Duplicate entry key: 'Dell2010' in file '../Bibliographies/202012.bib', skipping ...
-[604] Utils.pm:395> WARN - month field 'nov' in entry 'Iyer2010' is not an integer - this will probably not sort properly.
-[609] Utils.pm:395> WARN - month field 'dec' in entry 'Cintra2013' is not an integer - this will probably not sort properly.
-[656] Utils.pm:395> WARN - month field 'feb' in entry 'Michalopoulos2014' is not an integer - this will probably not sort properly.
-[661] Utils.pm:395> WARN - month field 'aug' in entry 'Besley2009' is not an integer - this will probably not sort properly.
-[665] Utils.pm:395> WARN - month field 'sep' in entry 'Olson1993' is not an integer - this will probably not sort properly.
-[674] Utils.pm:395> WARN - month field 'may' in entry 'Naritomi2012' is not an integer - this will probably not sort properly.
-[710] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[711] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
-[711] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-UK'
-[711] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-UK'
-[732] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[743] bbl.pm:754> INFO - Output to main.bbl
-[743] Biber.pm:128> INFO - WARNINGS: 7
+[98] biber-MSWIN64:330> INFO - === 
+[118] Biber.pm:415> INFO - Reading 'main.bcf'
+[236] Biber.pm:952> INFO - Found 11 citekeys in bib section 0
+[257] Biber.pm:4334> INFO - Processing section 0
+[272] Biber.pm:4523> INFO - Looking for bibtex format file '../Bibliographies/202012.bib' for section 0
+[285] bibtex.pm:1682> INFO - LaTeX decoding ...
+[449] bibtex.pm:1494> INFO - Found BibTeX data source '../Bibliographies/202012.bib'
+[481] Utils.pm:395> WARN - month field 'nov' in entry 'Iyer2010' is not an integer - this will probably not sort properly.
+[485] Utils.pm:395> WARN - month field 'dec' in entry 'Cintra2013' is not an integer - this will probably not sort properly.
+[534] Utils.pm:395> WARN - month field 'feb' in entry 'Michalopoulos2014' is not an integer - this will probably not sort properly.
+[541] Utils.pm:395> WARN - month field 'aug' in entry 'Besley2009' is not an integer - this will probably not sort properly.
+[547] Utils.pm:395> WARN - month field 'sep' in entry 'Olson1993' is not an integer - this will probably not sort properly.
+[565] Utils.pm:395> WARN - month field 'may' in entry 'Naritomi2012' is not an integer - this will probably not sort properly.
+[583] Utils.pm:395> WARN - month field 'mar' in entry 'Michalopoulos2020' is not an integer - this will probably not sort properly.
+[619] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[619] UCollate.pm:68> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[619] Biber.pm:4162> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-UK'
+[619] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-UK'
+[645] bbl.pm:651> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[657] bbl.pm:754> INFO - Output to main.bbl
+[657] Biber.pm:128> INFO - WARNINGS: 7
