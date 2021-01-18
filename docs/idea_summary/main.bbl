@@ -19,6 +19,39 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{AcemogluRobinson2012_whynationsfail}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d849e6f8de178bfb18aa67341c9f8d38}{%
+           family={Acemoglu},
+           familyi={A\bibinitperiod},
+           given={Daron},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=974873287a7760126350afac970c1e81}{%
+           family={Robinson},
+           familyi={R\bibinitperiod},
+           given={James\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Crown Books}%
+      }
+      \strng{namehash}{e9d3e7c95c550d701dedddb09ddaecb0}
+      \strng{fullhash}{e9d3e7c95c550d701dedddb09ddaecb0}
+      \strng{bibnamehash}{e9d3e7c95c550d701dedddb09ddaecb0}
+      \strng{authorbibnamehash}{e9d3e7c95c550d701dedddb09ddaecb0}
+      \strng{authornamehash}{e9d3e7c95c550d701dedddb09ddaecb0}
+      \strng{authorfullhash}{e9d3e7c95c550d701dedddb09ddaecb0}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Why Nations Fail}}
+      \field{year}{2012}
+    \endentry
     \entry{Ali2019}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=e7473f57b13960a82033614c43e4cf3d}{%
