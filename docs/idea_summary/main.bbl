@@ -374,6 +374,50 @@
       \endverb
       \keyw{land conflicts,pre-colonial institutions,state building,subnational politics}
     \endentry
+    \entry{Domar1970}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1a14b279a5083579386e288b943081a}{%
+           family={Domar},
+           familyi={D\bibinitperiod},
+           given={Evsey\bibnamedelima D.},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a1a14b279a5083579386e288b943081a}
+      \strng{fullhash}{a1a14b279a5083579386e288b943081a}
+      \strng{bibnamehash}{a1a14b279a5083579386e288b943081a}
+      \strng{authorbibnamehash}{a1a14b279a5083579386e288b943081a}
+      \strng{authornamehash}{a1a14b279a5083579386e288b943081a}
+      \strng{authorfullhash}{a1a14b279a5083579386e288b943081a}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The purpose of this paper is to present, or more correctly, to revive, a hypothesis regarding the causes of agricultural serfdom or slavery (used here interchangeably). The hypothesis was suggested by Kliuchevsky's description of the Russian experience in the sixteenth and seventeenth centuries, but it aims at a wider applicability.}
+      \field{issn}{0022-0507}
+      \field{journaltitle}{The Journal of Economic History}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{{The Causes of Slavery or Serfdom: A Hypothesis}}
+      \field{volume}{30}
+      \field{year}{1970}
+      \field{pages}{18\bibrangedash 32}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1017/S0022050700078566
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/nicol/Dropbox/Papers/Domar (1970, JEH) The Causes of Slavery or Serfdom - A Hypothesis.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/product/identifier/S0022050700078566/type/journal{\_}article
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/product/identifier/S0022050700078566/type/journal%7B%5C_%7Darticle
+      \endverb
+    \endentry
     \entry{Fujiwara2017}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=18af260d364ee7ae40ddbc2ddf912254}{%
