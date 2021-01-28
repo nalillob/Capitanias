@@ -52,6 +52,7 @@ def def_dirs():
     dir_rawdata = os.path.join(dir_data, 'raw')
     dir_dtadata = os.path.join(dir_data, 'dta')
     dir_gisdata = os.path.join(dir_data, 'gis')
+    dir_csvdata = os.path.join(dir_data, 'csv')
     dir_results = os.path.join(dir_main, 'results')
     dir_docs = os.path.join(dir_main, 'docs')
     dir_dict = {'main': {'path': dir_main},
@@ -60,6 +61,7 @@ def def_dirs():
                 'raw_data': {'path': dir_rawdata},
                 'dta_data': {'path': dir_dtadata},
                 'gis_data': {'path': dir_gisdata},
+                'csv_data': {'path': dir_csvdata},
                 'docs': {'path': dir_docs},
                 'results': {'path': dir_results}}
     return dir_dict
