@@ -1,3 +1,10 @@
+"""DESCRIPTION: This script is step 03 in the processing of IBGE geographical data. This script creates a geodatabase
+for all years between 1872 and 1991 that have GIS data that has been downloaded in step 1.
+
+Requirements:
+setup_dirs_2x.py has to be in the same folder as this script.
+"""
+
 # NOTE: since this script uses arcpy, make sure that the Python interpreter is Python 2.x
 
 import os

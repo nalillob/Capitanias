@@ -1,3 +1,6 @@
+"""Description: This is a utility script that declares and stores important directories in a dict objetct. It is
+configured for Python 3.x, but a version for Python 2.x exists with the name setup_dirs_2x.py. """
+
 import os
 
 

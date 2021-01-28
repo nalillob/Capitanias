@@ -1,3 +1,10 @@
+"""DESCRIPTION: This script is step 02 in the processing of IBGE geographical data. This script downloads the raw
+shapefiles for all Brazilian political-administrative divisions for 2000 and 2010 from the IBGE FTP server.
+
+Requirements:
+setup_dirs.py has to be in the same folder as this script.
+"""
+
 import ftptool
 import os
 import setup_dirs

@@ -1,3 +1,10 @@
+"""Description: This script is step 6 in the processing of the 1872-1991 IBGE geographical data. It intersects the
+DPAs with the Capitania feature classes to create a third polygon feature class.
+
+Requirements:
+setup_dirs_2x.py has to be in the same folder as this script.
+"""
+
 # NOTE: since this script uses arcpy, make sure that the Python interpreter is Python 2.x
 
 import os
