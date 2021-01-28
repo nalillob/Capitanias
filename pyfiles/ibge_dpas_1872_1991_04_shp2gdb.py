@@ -1,3 +1,10 @@
+"""Description: This script is step 04 in processing the 1872 to 1991 geographical data of IBGE and creates a list of
+shapefiles in the top directory of the raw 1872 to 1991 DPAs and puts them in the geodatabases created in step 3.
+
+Requirements:
+setup_dirs_2x.py has to be in the same folder as this script.
+"""
+
 # NOTE: since this script uses arcpy, make sure that the Python interpreter is Python 2.x
 
 import os

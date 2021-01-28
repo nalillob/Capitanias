@@ -1,5 +1,8 @@
+""" Description: This is a utility script that contains two functions that search for all .zip files in a directory,
+including in subdirectories. Optionally, it unzips .zip files within .zip files.
+"""
+
 import os
-import setup_dirs
 import zipfile
 
 
@@ -86,18 +89,3 @@ def unzipper(topdir, children=False, overwrite=False, flatten=False):
             to_unzip_list = []
 
     return
-
-
-# Preferences:
-overwrite_stuff = False
-
-# Load directories and create them if they don't exist:
-dir_dict = setup_dirs.def_dirs()
-setup_dirs.create_dirs(directory_dict=dir_dict, report=True)
-
-# Define raw data directory:
-raw_data_dir = os.path.join(dir_dict['raw_data']['path'], 'IBGE')
-if not os.path.exists(raw_data_dir):
-    os.mkdir(raw_data_dir)
-
-parent_dir = os.path.join(raw_data_dir, "Censo_2010")

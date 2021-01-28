@@ -1,3 +1,13 @@
+# coding=utf-8
+"""Description: This script is a utility that has a function that takes as input any polygon feature class that
+covers Brazil, and with it creates another polygon feature class that corresponds to the Capitanias according to
+Cintra (2013).
+
+Reference: Cintra, Jorge Pimentel. 2013. “Reconstruindo o Mapa Das Capitanias Hereditárias.” Anais Do Museu Paulista:
+História e Cultura Material 21 (2): 11–45. https://doi.org/10.1590/S0101-47142013000200002.
+
+"""
+
 # NOTE: since this script uses arcpy, make sure that the Python interpreter is Python 2.x
 
 import arcpy

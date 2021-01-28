@@ -1,3 +1,16 @@
+# coding=utf-8
+"""DESCRIPTION: This script is step 05 in the processing of IBGE geographical data. Creates a polygon feature class
+that corresponds to the capitania boundaries as defined by Cintra (2013). It does this for each DPA feature class for
+1872 to 1991 downloaded from IBGE's ftp server.
+
+Requirements:
+setup_dirs_2x.py has to be in the same folder as this script.
+cintra2013.py has to be in the same folder as this script.
+
+Reference: Cintra, Jorge Pimentel. 2013. “Reconstruindo o Mapa Das Capitanias Hereditárias.” Anais Do Museu Paulista:
+História e Cultura Material 21 (2): 11–45. https://doi.org/10.1590/S0101-47142013000200002.
+"""
+
 # NOTE: since this script uses arcpy, make sure that the Python interpreter is Python 2.x
 
 import os
