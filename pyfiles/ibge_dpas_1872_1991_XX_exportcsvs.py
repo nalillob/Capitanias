@@ -15,7 +15,7 @@ import utility_ibge_csvexporter
 
 # Preferences:
 arcpy.env.overwriteOutput = False
-overwrite_csvs = False
+overwrite_csvs = True
 
 # Load main directories and create them if they don't exist:
 dir_dict = setup_dirs_2x.def_dirs()
