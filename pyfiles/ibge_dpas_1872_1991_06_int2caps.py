@@ -28,7 +28,7 @@ gdblist = arcpy.ListWorkspaces(wild_card="*", workspace_type='FileGDB')
 for gdb in gdblist:
     arcpy.env.workspace = gdb
     year = os.path.basename(gdb).replace(".gdb", "")
-    muni_fc = "T05_malha_municipal_{0}_GCS_WGS_1984".format(year)
+    muni_fc = "T05_malha_municipal_{0}".format(year)
     int_fc = os.path.join(gdb, "{0}_intcaps".format(muni_fc))
     cap_fc = [fc for fc in arcpy.ListFeatureClasses(wild_card="capitanias_*", feature_type="POLYGON")
               if fc.find("ext") == -1][0]

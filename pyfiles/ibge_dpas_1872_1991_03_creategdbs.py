@@ -13,7 +13,6 @@ import arcpy
 import re
 
 # Preferences:
-overwrite_nonarcgis_stuff = False
 arcpy.env.overwriteOutput = False
 
 # Load main directories and create them if they don't exist:
