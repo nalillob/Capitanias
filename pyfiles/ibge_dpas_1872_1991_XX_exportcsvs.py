@@ -15,7 +15,7 @@ import utility_ibge_csvexporter
 
 # Preferences:
 arcpy.env.overwriteOutput = False
-overwrite_csvs = True
+overwrite_csvs = False
 
 # Load main directories and create them if they don't exist:
 dir_dict = setup_dirs_2x.def_dirs()
@@ -38,8 +38,11 @@ for gdb in gdblist:
     arcpy.env.workspace = gdb
     year = os.path.basename(gdb).replace(".gdb", "")
     fc_list = arcpy.ListFeatureClasses()
+    tbl_list = arcpy.ListTables()
     destin_path = os.path.join(top_destin, year)
     if not os.path.exists(destin_path):
         os.mkdir(destin_path)
     for fc in fc_list:
         utility_ibge_csvexporter.fc2csv(fc=fc, overwrite=overwrite_csvs, out_path=destin_path)
+    for tbl in tbl_list:
+        utility_ibge_csvexporter.fc2csv(fc=tbl, overwrite=overwrite_csvs, out_path=destin_path)
