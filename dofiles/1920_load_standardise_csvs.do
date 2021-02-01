@@ -1,9 +1,13 @@
 clear all
 set more off
 
+* Setup directories:
+local source_dir "$capdata/dta/IBGE/from_csv/1920"
+local destin_dir "$capdata/dta/processed"
+
 ********************************************************************************
 * Load and standardise municipality polygon geographic data:
-use "$capdata/dta/IBGE/from_csv/1920/T05_malha_municipal_1920.dta", clear
+use "`source_dir'/T05_malha_municipal_1920.dta", clear
 replace Shape = subinstr(Shape, "(", "", .)
 replace Shape = subinstr(Shape, ")", "", .)
 replace Shape = subinstr(Shape, ",", "", .)
@@ -31,11 +35,11 @@ label var muni_poly_centroid_y "Municipality polygon centroid y-coordinate (SIRG
 
 label data "1920 political-administrative division (DAP), municipalities"
 note: Source: IBGE
-save "$capdata/dta/processed/1920_municipality_polygon.dta", replace
+save "`destin_dir'/1920_municipality_polygon.dta", replace
 
 ********************************************************************************
 * Load and standardise municipality seat geographic data:
-use "$capdata/dta/IBGE/from_csv/1920/T03_sede_municipal_1920.dta", clear
+use "`source_dir'/T03_sede_municipal_1920.dta", clear
 replace Shape = subinstr(Shape, "(", "", .)
 replace Shape = subinstr(Shape, ")", "", .)
 replace Shape = subinstr(Shape, ",", "", .)
@@ -59,12 +63,11 @@ label var muni_seat_y "Municipality seat y-coordinate (SIRGAS)"
 
 label data "1920 municipality seats"
 note: Source: IBGE
-save "$capdata/dta/processed/1920_municipality_seat.dta", replace
+save "`destin_dir'/1920_municipality_seat.dta", replace
 
 ********************************************************************************
-* Load and standardise border geographic data:
-import delimited "$capdata\csv\IBGE\1920\capitanias_GCS_WGS_1984_line.csv", ///
-	case(preserve) asdouble encoding(utf8) stringcols(_all) clear
+* Load and standardise capitania border geographic data:
+use "`source_dir'/capitanias_GCS_WGS_1984_line.dta", clear
 replace Shape = subinstr(Shape, "(", "", .)
 replace Shape = subinstr(Shape, ")", "", .)
 replace Shape = subinstr(Shape, ",", "", .)
@@ -89,12 +92,11 @@ label var capbrdr_midpoint_x "Capitania border midpoint x-coordinate (SIRGAS)"
 label var capbrdr_midpoint_y "Capitania border midpoint y-coordinate (SIRGAS)"
 
 label data "1920 Capitania Borders"
-save "$capdata/dta/processed/1920_capitania_borders.dta", replace
+save "`destin_dir'/1920_capitania_borders.dta", replace
 
 ********************************************************************************
-* Load and standardise Capitania geographic data:
-import delimited "$capdata\csv\IBGE\1920\capitanias_GCS_WGS_1984.csv", ///
-	case(preserve) asdouble encoding(utf8) stringcols(_all) clear
+* Load and standardise capitania polygon geographic data:
+use "`source_dir'/capitanias_GCS_WGS_1984.dta", clear
 	
 replace Shape = subinstr(Shape, "(", "", .)
 replace Shape = subinstr(Shape, ")", "", .)
@@ -131,7 +133,7 @@ label var cap_poly_centroid_y "Capitania polygon centroid y-coordinate"
 
 label data "1920 Capitania Geographic Data"
 note: Source: Cintra (2013)
-save "$capdata/dta/processed/1920_capitania_geodata.dta", replace
+save "`destin_dir'/1920_capitania_geodata.dta", replace
 
 ********************************************************************************
 * Load and standardise Capitania historical data:
@@ -181,12 +183,11 @@ label var cap_treat "Treated if time autonomous >= median (`cap_time_auto_p50')"
 compress
 label data "Capitania Historical Data"
 note: Sources: Cintra (2013), Augeron and Vidal (2007)
-save "$capdata/dta/processed/capitanias_hist_data.dta", replace
+save "`destin_dir'/capitanias_hist_data.dta", replace
 
 ********************************************************************************
 * Load and standardise distances between municipality and capitania borders:
-import delimited "$capdata\csv\IBGE\1920\ntable_muni_brdr_to_cap_brdr_1920.csv", ///
-	case(preserve) encoding(utf8) clear
+use "`source_dir'/ntable_muni_brdr_to_cap_brdr_1920.dta", clear
 	
 drop OBJECTID
 
@@ -212,12 +213,11 @@ label var muni_poly_capbrdr_angle "Distance from municipality polygon to capitan
 
 label data "1920 Distance from each municipality polygon to each capitania border"
 notes drop _all
-save "$capdata/dta/processed/1920_munipoly2capbrdrs.dta", replace
+save "`destin_dir'/1920_munipoly2capbrdrs.dta", replace
 
 ********************************************************************************
 * Load and standardise distances between municipality seat and capitania borders:
-import delimited "$capdata\csv\IBGE\1920\ntable_muni_seat_to_cap_brdr_1920.csv", ///
-	case(preserve) encoding(utf8) clear
+use "`source_dir'/ntable_muni_seat_to_cap_brdr_1920.dta", clear
 	
 drop OBJECTID
 
@@ -243,5 +243,5 @@ label var muni_seat_capbrdr_angle "Distance from municipality seat to capitania 
 
 label data "1920 Distance from each municipality seat to each capitania border"
 notes drop _all
-save "$capdata/dta/processed/1920_muniseat2capbrdrs.dta", replace
+save "`destin_dir'/1920_muniseat2capbrdrs.dta", replace
 ********************************************************************************
