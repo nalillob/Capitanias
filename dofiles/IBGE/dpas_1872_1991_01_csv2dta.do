@@ -34,8 +34,9 @@ foreach csv_year_dir of local csv_year_dirs {
 	
 	* Loop over files, importing them and saving them as .dta's:
 	foreach file of local files {
-		import delimited "`top_source_dir'/`csv_year_dir'/`file'", clear ///
-			varnames(1) case(preserve) asdouble encoding(utf8) stringcols(_all)
+		import delimited "`top_source_dir'/`csv_year_dir'/`file'", ///
+			clear bindquote(strict) varnames(1) case(preserve) asdouble ///
+			encoding(utf8) stringcols(_all)
 			
 		local filenoext = subinstr("`file'", ".csv", "", .)
 		save "`filenoext'.dta", replace
