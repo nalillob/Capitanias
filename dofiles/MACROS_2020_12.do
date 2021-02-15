@@ -17,6 +17,7 @@ global maindir 	"$research/Capitanias"
 global capdata 	"$maindir/data"
 global dodir 	"$maindir/dofiles"
 global results	"$maindir/results"
+global mapsdir	"$maindir/maps"
 
 * MACRO FOR THIS DO-FILE
 global macrodo "$dodir/MACROS_2020_12.do"
