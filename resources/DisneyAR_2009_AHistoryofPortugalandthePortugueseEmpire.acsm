@@ -1,0 +1,37 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:501e16ca-f45c-4a0c-9a9f-8a270a9f2ed6</distributor>
+  <operatorURL>http://rps2images.ebscohost.com/fulfillment</operatorURL>
+  <transaction>s6670599:16248105:304683:1612452564174:1318504365</transaction>
+  <expiration>2021-02-04T16:29:24-05:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:fd6d1ab2-4d54-470c-bc46-32f1faeefc86</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">History of Portugal and the Portuguese Empire Volume 2, The Portuguese Empire</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Disney, A. R.</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Cambridge eText</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">eng</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:fd6d1ab2-4d54-470c-bc46-32f1faeefc86</resource>
+      <permissions>
+        <display>
+          <until>2021-02-11T10:29:24-05:00</until>
+        </display>
+        <excerpt>
+          <until>2021-02-11T10:29:24-05:00</until>
+          <count initial="100"/>
+        </excerpt>
+        <print>
+          <until>2021-02-11T10:29:24-05:00</until>
+          <count initial="100"/>
+        </print>
+        <play>
+          <until>2021-02-11T10:29:24-05:00</until>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>7Av0u9Ivu8vRe7BIqjikEuQCYuU=</hmac>
+</fulfillmentToken>
