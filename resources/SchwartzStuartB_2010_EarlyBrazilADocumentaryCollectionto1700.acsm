@@ -1,0 +1,37 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:501e16ca-f45c-4a0c-9a9f-8a270a9f2ed6</distributor>
+  <operatorURL>http://rps2images.ebscohost.com/fulfillment</operatorURL>
+  <transaction>s6670599:16248105:347821:1612463594198:252226974</transaction>
+  <expiration>2021-02-04T19:33:14-05:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:8bfbbff2-e23c-4f59-af47-aeb9dd27332c</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Early Brazil</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Schwartz, Stuart B.</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Cambridge University Press</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">eng</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:8bfbbff2-e23c-4f59-af47-aeb9dd27332c</resource>
+      <permissions>
+        <display>
+          <until>2021-02-11T13:33:14-05:00</until>
+        </display>
+        <excerpt>
+          <until>2021-02-11T13:33:14-05:00</until>
+          <count initial="100"/>
+        </excerpt>
+        <print>
+          <until>2021-02-11T13:33:14-05:00</until>
+          <count initial="100"/>
+        </print>
+        <play>
+          <until>2021-02-11T13:33:14-05:00</until>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>9Imk5GWq8vLYj8bJynwlWyTSstw=</hmac>
+</fulfillmentToken>

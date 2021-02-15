@@ -1,0 +1,37 @@
+<fulfillmentToken fulfillmentType="loan" auth="user" xmlns="http://ns.adobe.com/adept">
+  <distributor>urn:uuid:501e16ca-f45c-4a0c-9a9f-8a270a9f2ed6</distributor>
+  <operatorURL>http://rps2images.ebscohost.com/fulfillment</operatorURL>
+  <transaction>s6670599:16248105:252650:1612455517292:1137588410</transaction>
+  <expiration>2021-02-04T17:18:37-05:00</expiration>
+  <resourceItemInfo>
+    <resource>urn:uuid:0db3f328-e7ea-431d-9cf1-73aa5436dad1</resource>
+    <resourceItem>1</resourceItem>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Constructing Early Modern Empires</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Roper, L. H.,Van Ruymbeke, Bertrand</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">BRILL NV</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">eng</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:0db3f328-e7ea-431d-9cf1-73aa5436dad1</resource>
+      <permissions>
+        <display>
+          <until>2021-02-11T11:18:37-05:00</until>
+        </display>
+        <excerpt>
+          <until>2021-02-11T11:18:37-05:00</until>
+          <count initial="100"/>
+        </excerpt>
+        <print>
+          <until>2021-02-11T11:18:37-05:00</until>
+          <count initial="100"/>
+        </print>
+        <play>
+          <until>2021-02-11T11:18:37-05:00</until>
+        </play>
+      </permissions>
+    </licenseToken>
+  </resourceItemInfo>
+  <hmac>A9XG2X+vXO10lqIZ+P0f0TpgCR4=</hmac>
+</fulfillmentToken>
